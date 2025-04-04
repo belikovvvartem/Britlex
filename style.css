@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+
+:root {
+    background: gray;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+    background: #FFFFFF;
+    width: 1600px;
+}
+
+.hero {
+    position: relative;
+    display: flex;
+    width: 1600px;
+    height: 660px;
+    flex-shrink: 0;
+    padding: 50px 0 0 129px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.hero-text .hero-title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+.hero-text .hero-p {
+    color: #8F95A5;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 40px;
+}
+
+.hero-text button {
+    width: 438px;
+    height: 118px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #263238;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 61px;
+}
+
+.hero-foto {
+    margin-top: -50px;
+    margin-left: 164px;
+}
+
+.decoration {
+    position: absolute;
+    top: 142px;
+    left: 553px;
+}
