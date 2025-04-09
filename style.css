@@ -69,6 +69,128 @@ body {
 }
 
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+  color: #3f3d56;
+}
+
+.about-us {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 100px 130px;
+  gap: 50px;
+}
+
+.about-us-content {
+  max-width: 600px;
+}
+
+.about-us-title {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #000000;
+}
+
+.about-us-description {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #6e728e;
+  margin-bottom: 60px;
+}
+
+.about-us-stats {
+  display: flex;
+  gap: 80px;
+}
+
+.stat {
+  text-align: left;
+}
+
+.stat-number {
+  font-size: 36px;
+  font-weight: 600;
+  color: #2f2e41;
+}
+
+.stat-label {
+  font-size: 16px;
+  color: #6e728e;
+  margin-top: 8px;
+}
+
+.about-us-image img {
+  width: 500px;
+  height: 500px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.header-britlex {
+  width: 1600px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Poppins;
+  gap: 200px;
+}
+
+.header-logo {
+  font-size: 36px;
+  color: rgb(0, 0, 0);
+  margin-left: -90px;
+}
+
+.header-logo-second {
+  font-size: 36px;
+  color: rgb(238, 238, 238);
+}
+
+.header-nav-menu {
+  display: flex;
+  width: 772px;
+  height: 30px;
+  color: rgb(38, 50, 56);
+  gap: 30px;
+}
+
+.header-nav-menu > a {
+  color: rgb(38, 50, 56);
+  text-decoration: none;
+}
+
+.header-button {
+  width: 220px;
+  height: 70px;
+  border-radius: 5px;
+  border: rgb(0, 0, 0) 2px solid;
+  color: rgb(0, 0, 0);
+  background: none;
+  cursor: pointer;
+  position: absolute;
+  margin-left: 1000px;
+}
+
+* {
   font-family: "Poppins", sans-serif;
   font-weight: 100;
   font-style: normal;
@@ -102,6 +224,16 @@ body {
   scroll-behavior: smooth;
 }
 
+.container {
+  width: 1600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 25px;
+  background: #ffffff;
+}
 
 .skills {
   width: 1600px;
