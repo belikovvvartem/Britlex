@@ -69,18 +69,6 @@ body {
   left: 553px;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Poppins", sans-serif;
-  background-color: #ffffff;
-  color: #3f3d56;
-}
-
 .about-us {
   display: flex;
   justify-content: space-between;
@@ -133,16 +121,6 @@ body {
   height: 500px;
   -o-object-fit: contain;
      object-fit: contain;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0 auto;
 }
 
 .header-britlex {
