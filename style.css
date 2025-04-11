@@ -58,8 +58,9 @@ body {
 }
 
 .hero-foto {
-  margin-top: -50px;
-  margin-left: 164px;
+  position: absolute;
+  top: 50px;
+  right: 123px;
 }
 
 .decoration {
