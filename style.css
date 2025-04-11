@@ -69,15 +69,14 @@ body {
   left: 553px;
 }
 
-<<<<<<< Updated upstream
-.contact-us {
-  height: 686px;
-  border: 1px solid red;
-=======
 .footer {
   height: 149px;
   border: 1px solid;
->>>>>>> Stashed changes
+}
+
+.contact-us {
+  height: 686px;
+  border: 1px solid red;
 }
 
 .about-us {
@@ -100,10 +99,7 @@ body {
   font-weight: 600;
   margin-bottom: 20px;
   color: #000;
-<<<<<<< Updated upstream
   text-align: center;
-=======
->>>>>>> Stashed changes
 }
 
 .about-us-description {
@@ -111,20 +107,14 @@ body {
   color: #6c7280;
   line-height: 1.7;
   margin-bottom: 50px;
-<<<<<<< Updated upstream
   text-align: center;
-=======
->>>>>>> Stashed changes
 }
 
 .about-us-stats {
   display: flex;
   gap: 60px;
   flex-wrap: wrap;
-<<<<<<< Updated upstream
   justify-content: center;
-=======
->>>>>>> Stashed changes
 }
 
 .stat-item {
@@ -192,7 +182,6 @@ body {
 }
 @media (max-width: 575px) {
   .about-us {
-<<<<<<< Updated upstream
     flex-direction: column;
     padding: 40px 20px;
   }
@@ -203,10 +192,6 @@ body {
     order: 1;
     margin-bottom: 30px;
   }
-=======
-    padding: 40px 20px;
-  }
->>>>>>> Stashed changes
   .about-us-title {
     font-size: 26px;
   }
@@ -216,10 +201,6 @@ body {
   }
   .about-us-image img {
     max-width: 280px;
-<<<<<<< Updated upstream
-=======
-    margin-top: 30px;
->>>>>>> Stashed changes
   }
   .about-us-stats {
     flex-direction: column;
@@ -250,11 +231,7 @@ body {
     width: 100%;
     max-width: 250px;
     height: auto;
-<<<<<<< Updated upstream
     margin-top: 0;
-=======
-    margin-top: 30px;
->>>>>>> Stashed changes
   }
   .about-us-stats {
     flex-direction: column;
