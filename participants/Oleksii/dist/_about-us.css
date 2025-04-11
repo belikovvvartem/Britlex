@@ -18,6 +18,7 @@
   font-weight: 600;
   margin-bottom: 20px;
   color: #000;
+  text-align: center;
 }
 
 .about-us-description {
@@ -25,12 +26,14 @@
   color: #6c7280;
   line-height: 1.7;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 .about-us-stats {
   display: flex;
   gap: 60px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .stat-item {
@@ -105,7 +108,17 @@
 }
 @media (max-width: 575px) {
   .about-us {
+    flex-direction: column;
     padding: 40px 20px;
+  }
+
+  .about-us-content {
+    order: 2;
+  }
+
+  .about-us-image {
+    order: 1;
+    margin-bottom: 30px;
   }
 
   .about-us-title {
@@ -119,7 +132,6 @@
 
   .about-us-image img {
     max-width: 280px;
-    margin-top: 30px;
   }
 
   .about-us-stats {
@@ -156,7 +168,7 @@
     width: 100%;
     max-width: 250px;
     height: auto;
-    margin-top: 30px;
+    margin-top: 0;
   }
 
   .about-us-stats {
