@@ -365,6 +365,11 @@ body {
   color: #546269;
 }
 
+@media (max-width: 992px) {
+  .pricing__card {
+    background: #427c2a;
+  }
+}
 * {
   font-family: "Poppins", sans-serif;
   font-weight: 100;
