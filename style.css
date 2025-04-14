@@ -69,6 +69,11 @@ body {
   left: 553px;
 }
 
+.footer {
+  height: 149px;
+  border: 1px solid;
+}
+
 .contact-us {
   height: 686px;
   border: 1px solid red;
