@@ -1,15 +1,4 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
-:root {
-  background: gray;
-}
-
-body {
-  margin: 0 auto;
-  padding: 0 auto;
-  background: #FFFFFF;
-  width: 1600px;
-}
-
 .hero {
   position: relative;
   display: flex;
