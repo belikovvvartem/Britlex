@@ -67,3 +67,42 @@ body {
   top: 142px;
   left: 553px;
 }
+
+@media (max-width: 992px) {
+  .hero {
+    width: 992px;
+    padding: 39px 0 0 39px;
+  }
+
+  .hero-title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 36px !important;
+    font-style: normal;
+    font-weight: 600 !important;
+    line-height: 45px !important;
+  }
+
+  .hero-p {
+    color: #8F95A5;
+    font-family: Poppins;
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0px !important;
+  }
+
+  button {
+    width: 236px !important;
+    height: 65px !important;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+  }
+
+  .hero-foto img {
+    width: 352px;
+    height: 352px;
+    top: 0;
+  }
+}
