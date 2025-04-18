@@ -1,15 +1,4 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
-:root {
-  background: gray;
-}
-
-body {
-  margin: 0 auto;
-  padding: 0 auto;
-  background: #FFFFFF;
-  width: 1600px;
-}
-
 .hero {
   position: relative;
   display: flex;
@@ -59,11 +48,91 @@ body {
 .hero-foto img {
   position: absolute;
   top: 50px;
-  right: 123px;
+  right: 150px;
 }
 
 .decoration {
   position: absolute;
   top: 142px;
   left: 553px;
+}
+
+@media (max-width: 992px) {
+  .hero {
+    width: 992px;
+    padding: 29px 0 0 29px;
+  }
+
+  .hero-title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 48px !important;
+    font-style: normal;
+    font-weight: 600 !important;
+    line-height: 45px !important;
+  }
+
+  .hero-p {
+    color: #8F95A5;
+    font-family: Poppins;
+    font-size: 20px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0px !important;
+  }
+
+  button {
+    width: 290px !important;
+    height: 80px !important;
+    font-size: 24px !important;
+    font-weight: 400 !important;
+    margin-top: 32px !important;
+  }
+
+  .hero-foto img {
+    width: 460px;
+    height: 460px;
+    top: 0;
+  }
+}
+@media (max-width: 767px) {
+  .hero {
+    width: 767px;
+    padding: 39px 0 0 39px;
+  }
+
+  .hero-title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 36px !important;
+    font-style: normal;
+    font-weight: 600 !important;
+    line-height: 45px !important;
+  }
+
+  .hero-p {
+    color: #8F95A5;
+    font-family: Poppins;
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0px !important;
+  }
+
+  button {
+    width: 236px !important;
+    height: 65px !important;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    margin-top: 32px !important;
+  }
+
+  .hero-foto img {
+    width: 352px;
+    height: 352px;
+    top: 0;
+    right: 50px;
+  }
 }
