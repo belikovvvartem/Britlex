@@ -4,15 +4,15 @@ html(lang="en")
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         title Britlex
-        link(rel="stylesheet", href="style.css")
         link(rel="stylesheet", href="normalize.css")
+        link(rel="stylesheet", href="style.css")
         link(rel="shortcut icon", href="favicon.ico", type="image/x-icon")
     body 
-    
-        include ./participants/Seva/_header.pug
-        include ./participants/Artem/_main.pug
-        include ./participants/Stas/_skills.pug
-        include ./participants/Oleksii/_about-us.pug
-        include ./participants/Sofia/_pricing.pug
-        include ./participants/Nastya/_contact-us.pug
-        include ./participants/Milana/_footer.pug
+        .container 
+            include ./participants/Seva/_header.pug
+            include ./participants/Artem/_main.pug
+            include ./participants/Stas/_skills.pug
+            include ./participants/Oleksii/_about-us.pug
+            include ./participants/Sofia/_pricing.pug
+            include ./participants/Nastya/_contact-us.pug
+            include ./participants/Milana/_footer.pug
