@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap)
 
-main 
+main
   width: 100%
 
 .hero
@@ -11,7 +11,6 @@ main
   flex-shrink: 0
   padding: 50px 0 0 39px
   box-sizing: border-box
-  background:  red
 
 .hero-text
   display: flex
@@ -64,6 +63,7 @@ button
 @media (max-width: 1199px)
   .hero
     width: 992px
+    height: 500px
     padding: 29px 0 0 29px
 
   .hero-title
@@ -97,41 +97,7 @@ button
 
 @media (max-width: 991px)
   .hero
-    width: 992px
-    padding: 29px 0 0 29px
-
-  .hero-title
-    color: #000
-    font-family: Poppins
-    font-size: 48px !important
-    font-style: normal
-    font-weight: 600 !important
-    line-height: 45px !important
-
-  .hero-p
-    color: #8F95A5
-    font-family: Poppins
-    font-size: 20px !important
-    font-style: normal
-    font-weight: 400
-    line-height: normal
-    margin-top: 0px !important
-
-  button
-    width: 290px !important
-    height: 80px !important
-    font-size: 24px !important
-    font-weight: 400 !important
-    margin-top: 32px !important
-
-  .hero-foto img
-    width: 460px
-    height: 460px
-    top: 0
-
-@media (max-width: 766px)
-  .hero
-    width: 767px
+    width: 768px
     padding: 39px 0 0 39px
 
   .hero-title
@@ -140,7 +106,7 @@ button
     font-size: 36px !important
     font-style: normal
     font-weight: 600 !important
-    line-height: 45px !important
+    line-height: 46px !important
 
   .hero-p
     color: #8F95A5
@@ -162,45 +128,74 @@ button
     width: 352px
     height: 352px
     top: 0
-    right: 50px
+    right: 0px
 
-// @media (max-width: 575px)
-//   .hero
-//     width: 575px
-//     padding: 39px 0 0 39px
+@media (max-width: 767px)
+  .hero
+    width: 576px
+    justify-content: center
+    padding: 0
 
-//   .hero-text 
-//     flex-direction: column-reverse !important
+  .hero-text
+    margin-top: 600px
+    flex-direction: column-reverse
 
-//   .hero-text-content 
-//     flex-direction: column !important
+  .hero-text-content
+    display: flex
+    flex-direction: column
 
-//   .hero-title
-//     color: #000
-//     font-family: Poppins
-//     font-size: 36px !important
-//     font-style: normal
-//     font-weight: 600 !important
-//     line-height: 45px !important
+  .hero-foto img
+    width: 424px
+    height: 424px
+    top: 0
+    right: 15%
 
-//   .hero-p
-//     color: #8F95A5
-//     font-family: Poppins
-//     font-size: 16px !important
-//     font-style: normal
-//     font-weight: 400
-//     line-height: normal
-//     margin-top: 0px !important
+  .hero-p
+    text-align: center
+    width: 500px
 
-//   button
-//     width: 236px !important
-//     height: 65px !important
-//     font-size: 18px !important
-//     font-weight: 400 !important
-//     margin-top: 32px !important
+  br
+    display: none
 
-//   .hero-foto img
-//     width: 352px
-//     height: 352px
-//     top: 0
-//     right: 50px
+  button
+    margin: auto
+
+  .decoration
+    display: none
+
+@media (max-width: 575px)
+  .hero
+    width: 320px
+    justify-content: center
+    padding: 0
+
+  .hero-text
+    margin-top: 574px
+    flex-direction: column-reverse
+
+  .hero-text-content
+    display: flex
+    flex-direction: column
+    align-items: center
+    width: 100%
+
+  .hero-foto img
+    width: 299px
+    height: 299px
+    right: 5%
+
+  .hero-title
+    font-size: 24px !important
+    width: 220px
+    line-height: 36px !important
+    text-align: center
+
+  .hero-p
+    font-size: 14px
+    width: 310px
+
+  br
+    display: none
+
+  .decoration
+    display: none
