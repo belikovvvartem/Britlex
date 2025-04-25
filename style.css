@@ -101,7 +101,7 @@ main {
   margin-top: 40px;
 }
 
-button {
+.getStarted {
   width: 438px;
   height: 118px;
   flex-shrink: 0;
@@ -151,7 +151,7 @@ button {
     line-height: normal;
     margin-top: 0px !important;
   }
-  button {
+  .getStarted {
     width: 290px !important;
     height: 80px !important;
     font-size: 24px !important;
@@ -186,7 +186,7 @@ button {
     line-height: normal;
     margin-top: 0px !important;
   }
-  button {
+  .getStarted {
     width: 236px !important;
     height: 65px !important;
     font-size: 18px !important;
@@ -227,7 +227,7 @@ button {
   br {
     display: none;
   }
-  button {
+  .getStarted {
     margin: auto;
   }
   .decoration {
@@ -609,6 +609,7 @@ body {
 }
 
 .skills {
+  width: 100%;
   padding: 50px;
   margin-top: 100px;
   display: flex;
@@ -776,7 +777,7 @@ body {
   gap: 10px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1599px) {
   .big-card {
     padding: 30px;
     width: 300px;
@@ -880,11 +881,115 @@ body {
     align-items: center;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 1199px) {
   .big-card {
     padding: 30px;
-    width: 440px;
-    height: 700px;
+    width: 300px;
+    height: 696px;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    background: #F5F5F5;
+    border-radius: 10px;
+    box-shadow: 2px 5px 5px 0px #8F95A5;
+  }
+  .card-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+  }
+  .card-h3 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 80px;
+    letter-spacing: 0%;
+  }
+  .bth-skills {
+    width: 196px;
+    height: 57px;
+    border-radius: 5px;
+    color: #ffffff;
+    background: #263238;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    transition: 1s ease-in-out;
+  }
+  .small-card {
+    width: 300px;
+    height: 441px;
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    background: #F5F5F5;
+    border-radius: 10px;
+    box-shadow: 2px 5px 5px 0px #8F95A5;
+  }
+  .bth-skills-small {
+    width: 196px;
+    height: 57px;
+    border-radius: 5px;
+    color: #ffffff;
+    background: #263238;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    transition: 1s ease-in-out;
+  }
+  .medium-card {
+    width: 616px;
+    height: 241px;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #F5F5F5;
+    border-radius: 10px;
+    box-shadow: 2px 5px 5px 0px #8F95A5;
+  }
+  .card-img-home {
+    position: relative;
+    width: 242px;
+    height: 162px;
+  }
+  .card-img-type {
+    width: 205px;
+    height: 205px;
+    position: relative;
+    right: -50px;
+  }
+  .card-img {
+    width: 250px;
+    height: 250px;
+  }
+  .skills {
+    width: 992px;
+    padding: 100px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 991px) {
+  .big-card {
+    padding: 30px;
+    width: 224;
+    height: 662px;
   }
   .card-text {
     font-weight: 400;
@@ -899,8 +1004,8 @@ body {
     letter-spacing: 0%;
   }
   .small-card {
-    width: 450px;
-    height: 700px;
+    width: 227px;
+    height: 441px;
     padding: 10px;
     margin: 0;
     box-sizing: border-box;
@@ -925,8 +1030,8 @@ body {
     transition: 1s ease-in-out;
   }
   .medium-card {
-    width: 450px;
-    height: 700px;
+    width: 462px;
+    height: 210px;
     border-radius: 10px;
     padding: 30px;
     margin: 0;
@@ -989,7 +1094,7 @@ body {
     align-items: center;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 575px) {
   .big-card {
     width: 290px;
     height: 600px;
