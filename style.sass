@@ -1,6 +1,7 @@
 
 :root
     background: #3c0fe053
+    box-sizing: border-box
 
 body 
     margin: 0 auto !important
@@ -12,28 +13,44 @@ body
     position: relative !important
     margin: 0 auto !important
     padding: 0 !important
+    overflow: hidden !important
 
 @media (max-width: 1599px)
+    body
+        width: 1200px !important
+
     .container
         width: 1200px !important
         background: purple !important
 
 @media (max-width: 1199px)
+    body
+        width: 992px !important
+
     .container
         width: 992px !important
         background: pink !important
     
 @media (max-width: 991px)
+    body
+        width: 768px !important
+
     .container
         width: 768px !important
         background: red !important
 
 @media (max-width: 767px)
+    body
+        width: 576px !important
+
     .container
         width: 576px !important
         background: yellow !important
 
 @media (max-width: 575px)
+    body
+        width: 320px !important
+
     .container
         width: 320px !important
         background: green !important
