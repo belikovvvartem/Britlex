@@ -192,12 +192,12 @@
   }
 
   .contact-us__infogroup {
-    gap: 60px;
+    gap: 20px;
     align-items: center;
   }
 
   .contact-us__form {
-    margin-top: 0px;
+    margin-bottom: 0px;
     gap: 0;
   }
 }
@@ -233,7 +233,7 @@
   }
 
   .contact-us__input {
-    width: 260px;
+    width: 290px;
     height: 50px;
     font-size: 12px;
     padding-left: 25px;
