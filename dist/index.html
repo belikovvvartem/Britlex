@@ -12,8 +12,21 @@
   <body> 
     <div class="container"> 
       <header class="header-britlex">
-        <div class="logo"><span>Brit</span><span>lex    </span></div>
+        <div class="logo"><span>Brit</span><span>lex</span></div>
         <div class="header-nav-menu"><a href="">Home</a><a href="">Skills</a><a href="">About Us</a><a href="">Pricing</a><a href="">Contacts</a></div>
+        <div class="nav-container">
+          <input id="burger-checkbox" type="checkbox">
+          <label class="burger" for="burger-checkbox"><span></span><span></span><span></span></label>
+          <nav class="nav-menu">
+            <ul>
+              <li><a href="#">Головна</a></li>
+              <li><a href="#">Skills</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Contacts</a></li>
+            </ul>
+          </nav>
+        </div>
         <button class="header-button">
           <h5>Let’s Talk</h5>
         </button>
@@ -29,77 +42,67 @@
             <div class="hero-foto"><img src="./participants/Artem/src/women.png" alt=""></div>
           </div>
         </section>
-      </main><!DOCTYPE html>
-      <html lang="en">
-        <head>
-          <meta charset="UTF-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title>Britlex</title>
-          <link rel="stylesheet" href="style.css">
-          <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-        </head>
-        <body>
-          <section class="skills"></section>
-          <h1 class="skills-text">Skills</h1>
-          <div class="card-df">
-            <div class="big-card"><img class="card-img" src="./participants/Stas/src/shared.png" alt="">
-              <h3 class="card-h3">Speaking</h3>
-              <div class="skill-text-df">
-                <p class="card-text">
-                  Improve your English skills and confidence.
-                  Live classes and interactive lessons online.
-                  20% extra free for a limited time only
-                </p>
-                <p class="card-text">
-                  Learn English online and improve your
-                  skills through our high-quality courses
-                  and resources all designed for adult language learners.
-                </p>
-              </div>
-              <button class="bth-skills">Learn more</button>
+      </main>
+      <section class="skills">
+        <h1 class="skills-text">Skills</h1>
+        <div class="card-df">
+          <div class="big-card"><img class="card-img" src="./participants/Stas/src/shared.png" alt="">
+            <h3 class="card-h3">Speaking</h3>
+            <div class="skill-text-df">
+              <p class="card-text">
+                Improve your English skills and confidence.
+                Live classes and interactive lessons online.
+                20% extra free for a limited time only
+              </p>
+              <p class="card-text">
+                Learn English online and improve your
+                skills through our high-quality courses
+                and resources all designed for adult language learners.
+              </p>
             </div>
-            <div class="card-fx-df">
-              <div class="small-card-df">
-                <div class="small-card"><img class="card-img-type" src="./participants/Stas/src/Typewriter-bro 1.png" alt="">
-                  <h3 class="card-h3">Writing</h3>
-                  <div class="skill-text-df">
-                    <p class="card-text">
-                      One of the most important and extensive
-                      areas of natural science, the science that
-                      studies substances, also their composition
-                    </p>
-                    <button class="bth-skills">Learn more</button>
-                  </div>
-                </div>
-                <div class="small-card"><img class="card-img-home" src="./participants/Stas/src/House bookshelves-bro 1.png" alt="">
-                  <h3 class="card-h3">Reading</h3>
-                  <div class="skill-text-df">
-                    <p class="card-text">
-                      perception and response actions of the user
-                      resulting from the use and/or upcoming use
-                      of the product, system or service
-                    </p>
-                    <button class="bth-skills">Learn more</button>
-                  </div>
+            <button class="bth-skills">Learn more</button>
+          </div>
+          <div class="card-fx-df">
+            <div class="small-card-df">
+              <div class="small-card"><img class="card-img-type" src="./participants/Stas/src/Typewriter-bro 1.png" alt="">
+                <h3 class="card-h3">Writing</h3>
+                <div class="skill-text-df">
+                  <p class="card-text">
+                    One of the most important and extensive
+                    areas of natural science, the science that
+                    studies substances, also their composition
+                  </p>
+                  <button class="bth-skills">Learn more</button>
                 </div>
               </div>
-              <div class="medium-card">
-                <div class="card-text-medium-df">
-                  <h3 class="card-h3">Listening</h3>
-                  <div class="skill-text-df">
-                    <p class="card-text">
-                      Here you can find activities to practise
-                      your listening skills. Listening will help you
-                      to improve your understanding.
-                    </p>
-                    <button class="bth-skills">Learn more</button>
-                  </div>
-                </div><img class="card-img-home" src="./participants/Stas/src/podcast.png" alt="">
+              <div class="small-card"><img class="card-img-home" src="./participants/Stas/src/House bookshelves-bro 1.png" alt="">
+                <h3 class="card-h3">Reading</h3>
+                <div class="skill-text-df">
+                  <p class="card-text">
+                    perception and response actions of the user
+                    resulting from the use and/or upcoming use
+                    of the product, system or service
+                  </p>
+                  <button class="bth-skills">Learn more</button>
+                </div>
               </div>
+            </div>
+            <div class="medium-card">
+              <div class="card-text-medium-df">
+                <h3 class="card-h3">Listening</h3>
+                <div class="skill-text-df">
+                  <p class="card-text">
+                    Here you can find activities to practise
+                    your listening skills. Listening will help you
+                    to improve your understanding.
+                  </p>
+                  <button class="bth-skills">Learn more</button>
+                </div>
+              </div><img class="card-img-home" src="./participants/Stas/src/podcast.png" alt="">
             </div>
           </div>
-        </body>
-      </html>
+        </div>
+      </section>
       <section class="about-us">
         <div class="about-us-content">
           <h2 class="about-us-title">About Us</h2>
@@ -126,15 +129,15 @@
         <div class="pricing__cards"> 
           <div class="pricing__card"> 
             <div class="pricing__card-img"> <img src="./participants/Sofia/src/pricing__online-test.png" alt=""></div>
-            <div class="pricing__content-text">
+            <div class="pricing-card-wrapper">
               <h2 class="pricing__card-title">Self-study online course</h2>
               <p class="pricing__card-text">Start learning English online in live classes with qualified EC teachers and students from all over the world.</p>
             </div>
             <button class="pricing__card-button">£5.99<span class="pricing__card-span">per month</span></button>
           </div>
-          <div class="pricing__card"> 
+          <div class="pricing__card">
             <div class="pricing__card-img"> <img src="./participants/Sofia/src/pricing__offline-lesson.png" alt=""></div>
-            <div class="pricing__content-text">
+            <div class="pricing-card-wrapper">
               <h2 class="pricing__card-title">Self-study online course</h2>
               <p class="pricing__card-text">Interactive group classes with expert teachers. Free 7-day trial</p>
             </div>
@@ -142,7 +145,7 @@
           </div>
           <div class="pricing__card"> 
             <div class="pricing__card-img"> <img src="./participants/Sofia/src/pricing__video-call.png" alt=""></div>
-            <div class="pricing__content-text">
+            <div class="pricing-card-wrapper">
               <h2 class="pricing__card-title">Self-study online course</h2>
               <p class="pricing__card-text">Online one-to-one English tutoring – enjoy our first session for only $1</p>
             </div>
@@ -161,7 +164,7 @@
         </div>
       </section>
       <footer class="footer">
-        <h1 class="footer-logo">Brit <samp class="footer-logo-second">lex </samp></h1>
+        <h1 class="footer-logo">Brit <span class="footer-logo-second">lex </span></h1>
         <section class="footer-nav-menu"> <a href="">Terms and Conditions </a><a href="">Privacy Policy</a><a href="">Cookie Policy</a></section>
       </footer>
     </div>

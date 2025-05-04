@@ -8,12 +8,12 @@
     margin: 0
     width: 100%
     height: 100px
-    display: flex
-    align-items: center
-    justify-content: space-between
     font-family: Poppins
     padding: 0 131px 0 129px
     background: red
+    display: flex
+    justify-content: center
+    align-items: center
 
 .logo
     font-size: 36px
@@ -27,6 +27,13 @@
     width: 772px
     height: 30px
     gap: 30px
+
+.header-content 
+    width: 100%
+    display: flex
+    justify-content: space-between
+    align-items: center
+
 
 .header-nav-menu > a
     color: rgba(38, 50, 56, 1)
@@ -46,6 +53,77 @@
     font-style: normal
     font-weight: 400
     line-height: normal
+
+
+/* Бургер навігація
+
+.nav-container
+  width: 100vw
+  height: 100vh
+  z-index: 0
+  display: none
+
+  #burger-checkbox
+    display: none
+
+    &:checked
+      + .burger
+        span
+          &:nth-child(1)
+            transform: rotate(45deg) translate(7px, 7px)
+          &:nth-child(2)
+            opacity: 0
+          &:nth-child(3)
+            transform: rotate(-45deg) translate(7px, -7px)
+
+      ~ .nav-menu
+        right: 0
+
+  .burger
+    display: block
+    width: 40px
+    height: 40px
+    cursor: pointer
+    position: absolute
+    top: 15px
+    right: 15px
+    z-index: 1000
+
+    span
+      background: #fff
+      display: block
+      height: 4px
+      margin: 6px 0
+      transition: all 0.3s ease
+      z-index: 1500
+
+  .nav-menu
+    position: fixed
+    top: 0
+    right: -250px
+    width: 250px
+    height: 100%
+    background: #444
+    transition: right 0.3s ease
+    padding-top: 60px
+    z-index: 1001000
+
+    ul
+      list-style: none
+      padding: 0
+      margin: 0
+
+      li
+        padding: 15px 20px
+
+        a
+          color: #fff
+          text-decoration: none
+          font-size: 18px
+
+          &:hover
+            color: #ddd
+
 
 @media (max-width: 1599px)
     .header-britlex
@@ -108,6 +186,14 @@
         cursor: pointer
 
 @media (max-width: 991px)
+    .header-nav-menu
+        display: none !important
+
+    .nav-container
+        display: block
+
+    .header-button
+        display: none
 
     .logo
         font-size: 30px

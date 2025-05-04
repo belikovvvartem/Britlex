@@ -1,12 +1,32 @@
 header.header-britlex
-    .logo
-        span Brit
-        span lex    
-    .header-nav-menu
-        a(href='') Home
-        a(href='') Skills
-        a(href='') About Us
-        a(href='') Pricing
-        a(href='') Contacts
-    button.header-button
-        h5 Let’s Talk
+    .header-content 
+        .logo
+            span Brit
+            span lex
+        .header-nav-menu
+            a(href="") Home
+            a(href="") Skills
+            a(href="") About Us
+            a(href="") Pricing
+            a(href="") Contacts
+        button.header-button
+            h5 Let’s Talk
+    .nav-container
+        input#burger-checkbox(type="checkbox")
+        label.burger(for="burger-checkbox")
+            span
+            span
+            span
+        nav.nav-menu
+            ul
+                li
+                    a(href="#") Головна
+                li
+                    a(href="#") Skills
+                li
+                    a(href="#") About Us
+                li
+                    a(href="#") Pricing
+                li
+                    a(href="#") Contacts
+

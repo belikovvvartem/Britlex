@@ -16,21 +16,23 @@
     gap: 10px
 
 .pricing__card
-    max-width: 426px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    width: 426px
+    height: 400px
 
 .pricing__card-img
     display: flex
     justify-content: center
-    padding: 0 0 75% 0
-    overflow: hidden
-    position: relative
-    background: 000
+    width: 300px
+    height: 200px
 
 .pricing__card-img img
-    max-width: 100%
-    height: 100%
+    width: 267px
+    height: 195px
     object-fit: cover
-    position: absolute
 
 .pricing-card-wrapper
     background: 792a2a
@@ -79,7 +81,7 @@
         padding-bottom: 35px
 
     .pricing__card
-        max-width: 344px
+        width: 344px
 
     .pricing__card:not(:first-child) .pricing-card-wrapper
         padding-bottom: 54px
@@ -115,7 +117,7 @@
         padding-bottom: 25px
 
     .pricing__card
-        max-width: 310px
+        width: 310px
 
     .pricing__card:not(:first-child) .pricing-card-wrapper
         padding-bottom: 55px
@@ -147,7 +149,7 @@
         padding-bottom: 26px
 
     .pricing__card
-        max-width: 230px
+        width: 230px
 
     .pricing-card-wrapper
         padding: 10px 0 23px 0
@@ -175,14 +177,17 @@
 @media (max-width: 767px)
     .pricing
         width: 576px
-        background: blue
         padding: 66px 0 82px 0
 
     .pricing__cards
         display: flex
+        align-items: center
         flex-direction: column
+        gap: 72px
 
     .pricing__card
+        width: 500px !important
+        overflow: visible !important
 
     .pricing__title
         font-size: 30px
@@ -190,6 +195,12 @@
 
     .pricing-card-wrapper
         padding: 10px 0 23px 0
+        text-align: center
+
+    .pricing__card-img 
+        overflow: visible
+        width: 100%
+        height: 291px
 
 
     .pricing__card:not(:first-child) .pricing-card-wrapper
@@ -208,6 +219,7 @@
     .pricing__card-button
         font-size: 22px
         gap: 8px
+        margin: auto !important
 
     .pricing__card-span
         font-size: 16px
@@ -215,4 +227,7 @@
 @media (max-width: 575px)
     .pricing
         width: 320px !important
-        background: purpul
+
+    .pricing__card-img
+        width: 248px !important
+        height: 248px !important
