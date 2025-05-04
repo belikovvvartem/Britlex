@@ -10,7 +10,6 @@
   height: 100px;
   font-family: Poppins;
   padding: 0 131px 0 129px;
-  background: red;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,7 +62,6 @@
 .nav-container {
   width: 100vw;
   height: 100vh;
-  z-index: 0;
   display: none;
 }
 .nav-container #burger-checkbox {
@@ -79,7 +77,7 @@
   transform: rotate(-45deg) translate(7px, -7px);
 }
 .nav-container #burger-checkbox:checked ~ .nav-menu {
-  right: 0;
+  left: 0;
 }
 .nav-container .burger {
   display: block;
@@ -87,12 +85,12 @@
   height: 40px;
   cursor: pointer;
   position: absolute;
-  top: 15px;
-  right: 15px;
-  z-index: 1000;
+  top: 27px;
+  right: 0px;
+  z-index: 99999;
 }
 .nav-container .burger span {
-  background: #fff;
+  background: #39515E;
   display: block;
   height: 4px;
   margin: 6px 0;
@@ -102,29 +100,35 @@
 .nav-container .nav-menu {
   position: fixed;
   top: 0;
-  right: -250px;
+  left: -15000px;
   width: 250px;
   height: 100%;
-  background: #444;
-  transition: right 0.3s ease;
+  box-shadow: 0 0 1500px 1500px #52646dc2;
+  transition: left 0.3s ease;
   padding-top: 60px;
-  z-index: 1001000;
+  z-index: 1000;
+  background: #ffffff;
 }
 .nav-container .nav-menu ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  border-top: 2px solid #ddd;
 }
 .nav-container .nav-menu ul li {
   padding: 15px 20px;
 }
 .nav-container .nav-menu ul li a {
-  color: #fff;
+  color: #0d0d0d;
   text-decoration: none;
   font-size: 18px;
 }
 .nav-container .nav-menu ul li a:hover {
-  color: #ddd;
+  color: #878585;
+}
+
+.nav-menu .logo {
+  margin-left: 20px;
 }
 
 @media (max-width: 1599px) {

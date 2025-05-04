@@ -1,7 +1,6 @@
-
 :root
-    background: #3c0fe053
     box-sizing: border-box
+    scroll-behavior: smooth
 
 body 
     margin: 0 auto !important
@@ -14,6 +13,135 @@ body
     margin: 0 auto !important
     padding: 0 !important
     overflow: hidden !important
+    display: flex
+    flex-direction: column
+    align-items: center
+
+#backtotop-btn
+  visibility: hidden
+  position: fixed
+  cursor: pointer
+  right: 16px
+  bottom: 16px
+  user-select: none
+  transition: 1s
+
+.rocket
+  display: block
+  font-size: 70px
+
+.arrow-top
+  display: block
+  width: 64px
+  height: 64px
+  pointer-events: none
+  background-color: #0fb
+  border-radius: 50%
+
+.slide-in-bottom
+  -webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both
+  animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both
+
+.slide-out-top
+  -webkit-animation: slide-out-top 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both
+  animation: slide-out-top 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both
+
+.scale-in-center
+  -webkit-animation: scale-in-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both
+  animation: scale-in-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both
+
+.scale-out-center
+  -webkit-animation: scale-out-center 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both
+  animation: scale-out-center 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both
+
+@-webkit-keyframes slide-in-bottom
+  0%
+    -webkit-transform: translateY(1000px)
+    transform: translateY(1000px)
+    opacity: 0
+
+  100%
+    -webkit-transform: translateY(0)
+    transform: translateY(0)
+    opacity: 1
+
+@keyframes slide-in-bottom
+  0%
+    -webkit-transform: translateY(1000px)
+    transform: translateY(1000px)
+    opacity: 0
+
+  100%
+    -webkit-transform: translateY(0)
+    transform: translateY(0)
+    opacity: 1
+
+@-webkit-keyframes slide-out-top
+  0%
+    -webkit-transform: translateY(0)
+    transform: translateY(0)
+    opacity: 1
+
+  100%
+    -webkit-transform: translateY(-1000px)
+    transform: translateY(-1000px)
+    opacity: 0
+
+@keyframes slide-out-top
+  0%
+    -webkit-transform: translateY(0)
+    transform: translateY(0)
+    opacity: 1
+
+  100%
+    -webkit-transform: translateY(-1000px)
+    transform: translateY(-1000px)
+    opacity: 0
+
+@-webkit-keyframes scale-in-center
+  0%
+    -webkit-transform: scale(0)
+    transform: scale(0)
+    opacity: 1
+
+  100%
+    -webkit-transform: scale(1)
+    transform: scale(1)
+    opacity: 1
+
+@keyframes scale-in-center
+  0%
+    -webkit-transform: scale(0)
+    transform: scale(0)
+    opacity: 1
+
+  100%
+    -webkit-transform: scale(1)
+    transform: scale(1)
+    opacity: 1
+
+@-webkit-keyframes scale-out-center
+  0%
+    -webkit-transform: scale(1)
+    transform: scale(1)
+    opacity: 1
+
+  100%
+    -webkit-transform: scale(0)
+    transform: scale(0)
+    opacity: 1
+
+@keyframes scale-out-center
+  0%
+    -webkit-transform: scale(1)
+    transform: scale(1)
+    opacity: 1
+
+  100%
+    -webkit-transform: scale(0)
+    transform: scale(0)
+    opacity: 1
+
 
 @media (max-width: 1599px)
     body
@@ -21,7 +149,6 @@ body
 
     .container
         width: 1200px !important
-        background: purple !important
 
 @media (max-width: 1199px)
     body
@@ -29,7 +156,9 @@ body
 
     .container
         width: 992px !important
-        background: pink !important
+
+    #backtotop-btn
+        display: none
     
 @media (max-width: 991px)
     body
@@ -37,7 +166,6 @@ body
 
     .container
         width: 768px !important
-        background: red !important
 
 @media (max-width: 767px)
     body
@@ -45,7 +173,6 @@ body
 
     .container
         width: 576px !important
-        background: yellow !important
 
 @media (max-width: 575px)
     body
@@ -53,7 +180,6 @@ body
 
     .container
         width: 320px !important
-        background: green !important
 
 
 @import "./participants/Artem/_main", "./participants/Milana/_footer", "./participants/Nastya/_contact-us", "./participants/Oleksii/_about-us", "./participants/Seva/_header", "./participants/Sofia/_pricing", "./participants/Stas/_skills"

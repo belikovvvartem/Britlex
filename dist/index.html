@@ -12,14 +12,21 @@
   <body> 
     <div class="container"> 
       <header class="header-britlex">
-        <div class="logo"><span>Brit</span><span>lex</span></div>
-        <div class="header-nav-menu"><a href="">Home</a><a href="">Skills</a><a href="">About Us</a><a href="">Pricing</a><a href="">Contacts</a></div>
+        <div class="header-content"> 
+          <div class="logo"><span>Brit</span><span class="lex">lex</span></div>
+          <div class="header-nav-menu"><a href="">Home</a><a href="#Skills">Skills</a><a href="#About">About Us</a><a href="#Pricing">Pricing</a><a href="#Contact">Contacts</a></div>
+          <button class="header-button">
+            <h5>Let’s Talk</h5>
+          </button>
+        </div>
         <div class="nav-container">
           <input id="burger-checkbox" type="checkbox">
           <label class="burger" for="burger-checkbox"><span></span><span></span><span></span></label>
           <nav class="nav-menu">
+            <div class="logo"><span>Brit</span><span>lex</span></div>
+            <hr>
             <ul>
-              <li><a href="#">Головна</a></li>
+              <li><a href="#">Home</a></li>
               <li><a href="#">Skills</a></li>
               <li><a href="#">About Us</a></li>
               <li><a href="#">Pricing</a></li>
@@ -27,9 +34,6 @@
             </ul>
           </nav>
         </div>
-        <button class="header-button">
-          <h5>Let’s Talk</h5>
-        </button>
       </header>
       <main>
         <section class="hero">
@@ -43,7 +47,7 @@
           </div>
         </section>
       </main>
-      <section class="skills">
+      <section class="skills" id="Skills">
         <h1 class="skills-text">Skills</h1>
         <div class="card-df">
           <div class="big-card"><img class="card-img" src="./participants/Stas/src/shared.png" alt="">
@@ -103,7 +107,7 @@
           </div>
         </div>
       </section>
-      <section class="about-us">
+      <section class="about-us" id="About">
         <div class="about-us-content">
           <h2 class="about-us-title">About Us</h2>
           <p class="about-us-description">The model offers a framework for discussing problems related to the user&apos;s experience, as well as possible ways and means of solving them. Application development begins at the top level (strategy), where the future software product is described quite abstractly from the point of view of the expectations of both users and the customer.</p>
@@ -124,7 +128,7 @@
         </div>
         <div class="about-us-image"><img src="./participants/Oleksii/src/business-competition.png" alt="About Us Illustration"></div>
       </section>
-      <section class="pricing"> 
+      <section class="pricing" id="Pricing"> 
         <h2 class="pricing__title">Pricing</h2>
         <div class="pricing__cards"> 
           <div class="pricing__card"> 
@@ -153,7 +157,7 @@
           </div>
         </div>
       </section>
-      <section class="contact-us"> <img class="contact-us__picture" src="./participants/Nastya/src/contact-us-img.png" alt="">
+      <section class="contact-us" id="Contact"> <img class="contact-us__picture" src="./participants/Nastya/src/contact-us-img.png" alt="">
         <div class="contact-us__infogroup"> 
           <h1 class="contact-us__title">Contact Us </h1>
           <p class="contact-us__text">Discover your current English level by taking our free online English test.Sign up to our newsletter for learning tips and free resources</p>
@@ -167,6 +171,7 @@
         <h1 class="footer-logo">Brit <span class="footer-logo-second">lex </span></h1>
         <section class="footer-nav-menu"> <a href="">Terms and Conditions </a><a href="">Privacy Policy</a><a href="">Cookie Policy</a></section>
       </footer>
-    </div>
+    </div><span id="backtotop-btn"><span class="rocket"> <img src="./participants/Artem/src/arrow.svg" alt=""></span></span>
+    <script src="./backToTop.js"> </script>
   </body>
 </html>
